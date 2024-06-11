@@ -1,0 +1,71 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input, .form select, .form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form input:focus, .form select:focus, .form button:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.forgot {
+    margin-top: 20px;
+}
+
+.forgot p {
+    color: #666;
+}
+
+.forgot a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}

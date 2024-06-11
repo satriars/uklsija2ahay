@@ -1,0 +1,28 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.purchase-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.purchase-history th,
+.purchase-history td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.purchase-history th {
+    background-color: #f2f2f2;
+}
+
+.purchase-history tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.purchase-history tr:hover {
+    background-color: #ddd;
+}
